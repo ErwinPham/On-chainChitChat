@@ -279,10 +279,6 @@ async function connectWallet() {
         const network = await provider.getNetwork();
         const chainId = Number(network.chainId);
 
-        //if (!CONTRACT_ADDRESS || CONTRACT_ADDRESS === "0xYOUR_CHITCHAT_PROXY_ADDRESS_HERE") {
-        //    console.warn("Hãy điền CONTRACT_ADDRESS trong app.js trước khi dùng Dapp.");
-        //    setWalletStatus("⚠️ Bạn cần cấu hình CONTRACT_ADDRESS trong app.js.");
-        //} else 
         if (chainId !== EXPECTED_CHAIN_ID) {
             setWalletStatus(
                 `Đã kết nối ví ${shortAddress(
