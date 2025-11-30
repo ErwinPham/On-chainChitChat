@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Author:** Huy Pham (Luca Nero)  
-**Project Type:** Educational Capstone & Production-Ready Upgradeable Dapp
+**Project Type:** Personal Project & Production-Ready Upgradeable Dapp
 
 ## Table of Contents
 
