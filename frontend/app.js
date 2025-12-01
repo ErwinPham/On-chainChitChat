@@ -415,7 +415,6 @@ async function loadConversation() {
         console.log("On-chain conversation length =", length);
 
         // queryFilter: đọc lại tất cả event liên quan tới convId
-        // Lưu ý: nếu RPC giới hạn block range, bạn có thể chỉnh fromBlock -> -5000 (last 5000 blocks)
         const filterSent = contract.filters.MessageSent(currentConversationId);
         const filterEdited = contract.filters.MessageEdited(currentConversationId);
         const filterDeleted = contract.filters.MessageDeleted(currentConversationId);
